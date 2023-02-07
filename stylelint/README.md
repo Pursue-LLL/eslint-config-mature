@@ -197,7 +197,7 @@ ps: `selector-no-id` 已经从stylelint v7.12.0 废除，使用 `selector-max-id
 
 2.1.7 **【必须】** 规则声明的右大括号 `}` 独占一行。stylelint: `block-closing-brace-newline-before`
 
-（本规则可以用[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)美化器美化器来满足。）
+（本规则可以用[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)美化器来满足。）
 
 **Bad**
 
