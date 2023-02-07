@@ -20,7 +20,7 @@ _.stylelintrc.js:_
 ```javascript
 module.exports = {
   extends: [
-    'eslint-config-advanced/stylelint/style',
+    'eslint-config-mature/stylelint/style',
   ],
 }
 ```
@@ -30,19 +30,19 @@ style 已支持基本风格，使用 scss/less 可以额外添加预编译语言
 ```javascript
 module.exports = {
   extends: [
-    'eslint-config-advanced/stylelint/style',
-    'eslint-config-advanced/stylelint/style-scss',
+    'eslint-config-mature/stylelint/style',
+    'eslint-config-mature/stylelint/style-scss',
   ],
 }
 ```
 
-添加属性顺序风格
+添加属性顺序风格，需要安装费 stylelint-config-recess-order
 
 ```javascript
 module.exports = {
   extends: [
-    'eslint-config-advanced/stylelint/style',
-    'eslint-config-advanced/stylelint/style-scss',
+    'eslint-config-mature/stylelint/style',
+    'eslint-config-mature/stylelint/style-scss',
     'stylelint-config-recess-order',
   ],
 }

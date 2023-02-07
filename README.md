@@ -20,7 +20,7 @@
 javascript
 
 ```shell
-npm install eslint eslint-config-advanced --save-dev
+npm install eslint eslint-config-mature --save-dev
 ```
 
 _.eslintrc.js:_
@@ -28,7 +28,7 @@ _.eslintrc.js:_
 ```javascript
 module.exports = {
   extends: [
-    'eslint-config-advanced',
+    'eslint-config-mature',
   ],
 }
 ```
@@ -44,8 +44,8 @@ _.eslintrc.js:_
 ```javascript
 module.exports = {
   extends: [
-    'eslint-config-advanced',
-    'eslint-config-advanced/ts', // 如果使用 ts
+    'eslint-config-mature',
+    'eslint-config-mature/ts', // 如果使用 ts
   ],
 }
 ```
@@ -61,9 +61,9 @@ _.eslintrc.js:_
 ```javascript
 module.exports = {
   extends: [
-    'eslint-config-advanced',
-    'eslint-config-advanced/ts',
-    'eslint-config-advanced/prettier',
+    'eslint-config-mature',
+    'eslint-config-mature/ts',
+    'eslint-config-mature/prettier',
   ],
 }
 ```

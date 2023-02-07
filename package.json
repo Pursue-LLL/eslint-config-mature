@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-advanced",
+  "name": "eslint-config-mature",
   "author": "CoderLiu",
-  "description": "eslint and stylelint config",
+  "description": "eslint and stylelint advanced config，eslint 和 stylelint 一把梭",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
@@ -22,7 +22,7 @@
     "*.js",
     "stylelint/"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/Pursue-LLL/eslint-config-mature",
   "keywords": [
     "eslint",
     "eslintrc",
@@ -42,10 +42,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Pursue-LLL/eslint-config-mature"
   },
   "scripts": {
     "eslint": "eslint ./test --ext .js,.jsx,.ts,.tsx,.vue --ignore-pattern \"bad.*\" ."
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
