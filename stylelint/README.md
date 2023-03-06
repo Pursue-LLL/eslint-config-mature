@@ -25,7 +25,7 @@ module.exports = {
 }
 ```
 
-style 已支持基本风格，使用 scss/less 可以额外添加预编译语言特有风格
+style 已支持基本风格，使用 scss/less 语法可以额外添加 /style-scss 支持预编译语言特有风格
 
 ```javascript
 module.exports = {
@@ -36,7 +36,7 @@ module.exports = {
 }
 ```
 
-添加属性顺序风格，需要安装费 stylelint-config-recess-order
+添加属性顺序风格，需要安装 stylelint-config-recess-order
 
 ```javascript
 module.exports = {
