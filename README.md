@@ -20,7 +20,7 @@
 javascript
 
 ```shell
-npm install eslint eslint-config-mature --save-dev
+npm install eslint eslint-config-mature eslint-plugin-import --save-dev
 ```
 
 _.eslintrc.js:_
@@ -53,7 +53,7 @@ module.exports = {
 使用 prettier 的用户需要安装对应的依赖
 
 ```shell
-tnpm install prettier eslint-plugin-prettier --save-dev
+npm install prettier eslint-plugin-prettier --save-dev
 ```
 
 _.eslintrc.js:_

@@ -7,6 +7,10 @@ module.exports = {
          */
     'import/first': 'error',
     /**
+         * 导入顺序The default value is ["builtin", "external", "parent", "sibling", "index"]
+         */
+    'import/order': 'error',
+    /**
          * 禁止重复导入模块
          */
     'import/no-duplicates': 'error',

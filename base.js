@@ -16,13 +16,13 @@ module.exports = {
     // 即使没有 babelrc 配置文件，也使用 babel-eslint 来解析
     requireConfigFile: false,
     // 仅允许 import export 语句出现在模块的顶层
-    allowImportExportEverywhere: false,
+    allowImportExportEverywhere: true,
   },
   env: {
     browser: true,
     node: true,
     commonjs: true,
-    es6: true,
+    es2023: true,
   },
   globals: {
     document: 'readonly',
@@ -56,10 +56,7 @@ module.exports = {
      */
     'arrow-parens': [
       'warn',
-      'as-needed',
-      {
-        requireForBlockBody: true,
-      },
+      'always',
     ],
     /**
      * 强制箭头函数的箭头前后使用一致的空格
@@ -433,12 +430,12 @@ module.exports = {
     /**
      * 禁止使用 ++ 或 --
      */
-    'no-plusplus': [
-      'error',
-      {
-        allowForLoopAfterthoughts: true,
-      },
-    ],
+    // 'no-plusplus': [
+    //   'error',
+    //   {
+    //     allowForLoopAfterthoughts: true,
+    //   },
+    // ],
     /**
      * 禁止使用 hasOwnProperty, isPrototypeOf 或 propertyIsEnumerable
      */
@@ -693,6 +690,14 @@ module.exports = {
       {
         max: 10,
       },
+    ],
+
+    /**
+     * jsx使用双引号
+     */
+    'jsx-quotes': [
+      'error',
+      'prefer-double',
     ],
 
   },

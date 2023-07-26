@@ -1,5 +1,11 @@
 {
   "name": "eslint-config-mature",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ./test --ext .js,.jsx,.ts,.tsx,.vue --ignore-pattern \"bad.*\" .",
+    "pub": "npm version minor && npm publish"
+  },
+  "version": "0.3.0",
   "author": "CoderLiu",
   "description": "eslint and stylelint advanced config, a must for mature programmers",
   "devDependencies": {
@@ -12,8 +18,6 @@
     "typescript": "^4.9.4"
   },
   "peerDependencies": {
-    "@babel/core": "^7.20.12",
-    "@babel/eslint-parser": "^7.19.1",
     "eslint": "^8.31.0",
     "eslint-plugin-import": "^2.26.0"
   },
@@ -31,6 +35,7 @@
     "javascript",
     "styleguide",
     "react",
+    "reactlint",
     "vue",
     "typescript",
     "css",
@@ -38,14 +43,5 @@
     "stylelint",
     "stylelint-config"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Pursue-LLL/eslint-config-mature"
-  },
-  "scripts": {
-    "eslint": "eslint ./test --ext .js,.jsx,.ts,.tsx,.vue --ignore-pattern \"bad.*\" ."
-  },
-  "version": "0.1.10"
+  "license": "MIT"
 }
